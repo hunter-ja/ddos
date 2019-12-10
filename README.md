@@ -8,8 +8,8 @@
 
 ##releases
 ###下载源码是jar包，执行命令可运行：java -jar package-nmae ddos url client-count<br/>
-参数 | 含义
----- | ----
-package-name | 下载的jar包名
-url | 需要攻击的网站链接（注意只能get请求）
-client-count | 客户端请求数
+|     参数     |                   含义              |
+|------------- | ----------------------------------- |
+|package-name  | 下载的jar包名                       |
+|url           | 需要攻击的网站链接（注意只能get请求） |
+|client-count  | 客户端请求数                         |
