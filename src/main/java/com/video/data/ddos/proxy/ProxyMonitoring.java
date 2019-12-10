@@ -16,7 +16,6 @@ public class ProxyMonitoring implements Runnable {
             new Thread(threadGroup, new KuaiProxyIp()).start();
             new Thread(threadGroup, new LiuliuProxyIp()).start();
             new Thread(threadGroup, new FreeProxyIp()).start();
-            new Thread(threadGroup, new PayProxyIp()).start();
         }
     }
 
